@@ -1,0 +1,7 @@
+tracker_type: bytetrack
+track_high_thresh: 0.22          # Motion blur için düşürüldü
+track_low_thresh: 0.10           # Agresif ikinci şans  
+new_track_thresh: 0.22           # High ile aynı
+track_buffer: 18                 # 25 FPS'de ~0.7 saniye
+match_thresh: 0.72               # Perspektif değişimi için düşük
+fuse_score: True        # nedenini bilmiyorum hata vermemesi için var  https://github.com/ultralytics/ultralytics/pull/14965
