@@ -1,7 +1,7 @@
 # Road Damage Detection Applications
 
 This project is road damage detection applications that designed to enhance road safety and infrastructure maintenance by swiftly identifying and categorizing various forms of road damage, such as potholes and cracks.
-
+For better tracking we added multiple metods on video detection sections.
 ## Performing Detection Using Image
 ![Detection using image](resource/RDD_Image_Example.gif)
 
@@ -107,15 +107,3 @@ Run the training on **1_TrainingYOLOv8.ipynb** notebook. You can change the hype
 
 This is the training result of the YOLOv8s model that trained on the filtered Japan and India dataset with RTX2060 GPU. You can perform the evaluation on your dataset with **2_EvaluationTesting.ipynb** notebook, just convert your dataset into ultralytics format.
 
-<p align="center">
-    <img src='resource/PR_curve.png' width='80%'>
-    <img src='resource/confusion_matrix.png' width='80%'>
-    <img src='resource/val_batch2_pred.jpg' width='100%'>
-</p>
-
-## License and Citations
-- Road Damage Dataset from Crowdsensing-based Road Damage Detection Challenge (CRDDC2022)
-- All rights reserved on YOLOv8 license permits by [Ultralytics](https://github.com/ultralytics/ultralytics) and [Streamlit](https://streamlit.io/) framework
-
----
-This project is created for the [Road Damage Detection Challenge](https://s.id/RDDHariJalan23) by [Ministry of Public Works and Housing](https://pu.go.id/) for celebrating the "Peringatan Hari Jalan 2023"

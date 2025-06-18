@@ -110,5 +110,8 @@ training/dataset/rddJapanIndiaFiltered/Japan/*
 !training/dataset/rddJapanIndiaFiltered/rdd_JapanIndia.yaml
 training/runs/
 training/wandb/
-/sample_utils/RDD2022_all_countries/
+/RDD2022_all_countries/
 /.streamlit
+/.pt
+.jpg
+/RDD2022_SPLIT/

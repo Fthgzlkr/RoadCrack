@@ -1,0 +1,20 @@
+path: C:\Users\fthgz\OneDrive\Belgeler\RoadDamageDetection-main\RDD2022_SPLIT
+
+# Training Data Paths
+train: images/train
+
+# Validation Data Paths
+val: images/val
+
+nc: 8
+
+# Class names with their corresponding IDs
+names:
+  0: Longitudinal Crack    # D00 - Boyuna çatlak
+  1: Transverse Crack      # D10 - Enine çatlak
+  2: Alligator Crack       # D20 - Timsah derisi çatlağı
+  3: Pothole               # D40 - Çukur
+  4: Crosswalk Blur        # D43 - Yaya geçidi bulanıklığı
+  5: White Line            # D44 - Beyaz şerit
+  6: Utility Hole          # D50 - Altyapı deliği
+  7: Repair                # Repair - Onarım
